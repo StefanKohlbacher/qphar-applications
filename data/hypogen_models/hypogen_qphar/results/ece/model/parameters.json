@@ -1,0 +1,16 @@
+{
+  "fuzzy": true,
+  "weightType": "distance",
+  "logPath": null,
+  "name": "Hyperpharmacophore",
+  "maxDistance": 1000.0,
+  "nrSamples": 16,
+  "distanceType": "inverse",
+  "trainingDim": 31,
+  "modelType": "randomForest",
+  "modelKwargs": {
+    "max_depth": 3,
+    "n_estimators": 20
+  },
+  "threshold": 1
+}
